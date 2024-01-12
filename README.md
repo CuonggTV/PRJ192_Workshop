@@ -32,12 +32,14 @@
 #### Customer
 <details>
   <summary>Log in</summary>
+  
   - [ ] Check input empty or full spaces (use trim).
   - [ ] Check username and password match -> if not, send error.
 </details>
 
 <details>
   <summary>Register</summary>
+  
   - [ ] Register has these inputs: username, password, email name, date of birth, and phone number.
   - [ ] Check input empty or full spaces (use trim).
   - [ ] Check username exists -> if yes, send error.
