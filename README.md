@@ -23,6 +23,26 @@
 
 ## <ins>III. Diagrams</ins>
   1. ERD
-     
-  3. Relational Schema
+![ERD](/Diagrams/ERD.png)
 
+  2. Relational Schema
+![RS](/Diagrams/RS.png)
+
+## <ins>IV. Tasks</ins>
+#### Customer
+<details>
+  <summary>Log in</summary>
+  - [ ] Check input empty or full spaces (use trim).
+  - [ ] Check username and password match -> if not, send error.
+</details>
+
+<details>
+  <summary>Register</summary>
+  - [ ] Register has these inputs: username, password, email name, date of birth, and phone number.
+  - [ ] Check input empty or full spaces (use trim).
+  - [ ] Check username exists -> if yes, send error.
+  - [ ] Check password is equal to confirmed password.
+  - [ ] Check email format (abc123@gmail.com)
+  - [ ] Check dob -> if pass 18 years from now, send error.
+  - [ ] Check phone number (10 digits only)
+</details>
