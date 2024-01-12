@@ -34,7 +34,8 @@
   <summary>Log in</summary>
   
   - [ ] Check input empty or full spaces (use trim).
-  - [ ] Check username and password match -> if not, send error.
+  - [ ] Check if username and password match -> send redirect to home page.
+  - [ ] If not match, send error.
 </details>
 
 <details>
